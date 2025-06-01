@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.venv/
+
+# Django stuff:
+*.sqlite3
+db.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.log
+*.pot
+*.mo
+*.py~
+
+# Media and static files (if generated)
+media/
+staticfiles/
+static_root/
+media_root/
+
+# Secret files
+*.env
+.env.*
+secrets.json
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Test outputs
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.log
+test-results/
+
+# Migrations
+**/migrations/**/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.py
+
+# MyPy / Pyright
+.mypy_cache/
+.pyright/
+
+# Pytest
+.cache/
